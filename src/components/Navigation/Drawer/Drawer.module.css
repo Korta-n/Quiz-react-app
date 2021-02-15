@@ -1,0 +1,95 @@
+.Drawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgba(136, 137, 138, 0.8);
+    opacity: 1;
+    transform: translateX(0px);
+    transition: transform 0.22s ease-in-out;
+    z-index: 19;
+}
+.Drawer.close {
+    transform: translateX(-100%);
+}
+.Drawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+.Drawer ul li {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    transition: 0.27s;
+}
+.Drawer ul li a.ActiveLink::before {
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    content: '';
+    width: 10px;
+    background: linear-gradient(180deg, #a81e86 0%, #4f2ab6 100%);
+    border-radius: 50%;
+    height: 10px;
+    text-align: center;
+}
+.Drawer ul li a {
+    font-family: 'Poppins', sans-serif;
+    color: #080524;
+    font-size: 24px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.Drawer ul li a:focus,
+.Drawer ul li a:active {
+    transition: all 0.2s;
+    outline: none;
+}
+.Drawer ul li:hover {
+    transform: translateX(10px) scale(0.988);
+    transition: 0.27s;
+}
+.UserBlock {
+    width: 100%;
+    min-height: 150px;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ProfileCircle {
+    width: 120;
+    height: 120;
+    clip-path: circle(60px at center);
+    overflow: hidden;
+    background: rgba(136, 137, 138, 0.5);
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.EmailParagraph {
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.EmailParagraph:after {
+    display: block;
+    margin: 0 auto;
+    content: '';
+    height: 4px;
+    width: 80px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-radius: 100px;
+    background: #000;
+}

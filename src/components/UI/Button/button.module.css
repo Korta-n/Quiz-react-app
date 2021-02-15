@@ -1,0 +1,68 @@
+.Button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 20px;
+    background-color: inherit;
+    border: 3px solid #edf2f4;
+    color: #edf2f4;
+    font-size: 24px;
+    transition: 0.3s;
+    transform: scale(0.998);
+    pointer-events: fill;
+}
+/* .Button:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    transform: translate(-2px, -1px) scale(0.998);
+} */
+.Button:focus,
+.Button:active {
+    outline: none;
+}
+.Score_butt {
+    width: 46%;
+    height: 100%;
+}
+.Link {
+    text-decoration: none;
+    color: #edf2f4;
+}
+.BB {
+    border: none;
+}
+.BNR {
+    border-radius: 0px;
+}
+.black {
+    color: black;
+}
+.Button.disabled {
+    opacity: 0.5;
+}
+.Next_button_hover:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.Quiz_Create_Button:hover {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    transform: translate(-2px, -1px) scale(0.998);
+}
+.Restart_Title_Choose:hover {
+    opacity: 1;
+    color: rgb(121, 120, 120);
+    transition: 0.3s;
+}
+.Auth_Buttons:hover {
+    transform: translate(-2px, -2px) scale(0.998);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.Score_butt:hover {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+
+    transform: translate(-2px, -1px) scale(0.998);
+}

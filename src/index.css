@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+body {
+    scrollbar-color: #458245 #714826; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin; /* толщина */
+    margin: 0;
+    height: 100%;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+/* ::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(138, 138, 138);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(53, 53, 53);
+    border-radius: 8px;
+    transition: 0.2s;
+    border: 2px solid rgb(138, 138, 138);
+} */

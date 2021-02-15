@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;500&display=swap');
+.Input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.Input label {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.Input input {
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: 0.5s;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: -3px -3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.Input span {
+    color: rgb(255, 46, 74);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.Input.invalid label {
+    color: rgb(255, 46, 74);
+}
+.Input input::-webkit-input-placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+.Input.invalidB {
+    border: 2px solid rgb(236, 5, 36);
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;500&display=swap');
+.scoreBlock {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #edf2f4;
+    color: #000;
+    font-size: 24px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    width: 700px;
+    height: 100%;
+    background: #e2e8eb;
+}
+.ScoreBoard {
+    text-align: center;
+    color: #000;
+}
+.scoreBlock ul {
+    padding: 0;
+    list-style: none;
+}
+.scoreBlock ul li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 100%;
+    margin-bottom: 25px;
+    /* padding-bottom: 8px; */
+    padding-right: 20px;
+    border-bottom: 1px solid #000;
+}
+.scoreBlock ul li span {
+    font-family: 'Poppins', sans-serif;
+}
+.success {
+    font-size: 30px;
+    color: rgb(107, 180, 24);
+}
+
+.error {
+    font-size: 30px;
+    color: rgb(241, 64, 87);
+}
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.But {
+    width: 46%;
+    height: 100%;
+}
+.scoreUl {
+    margin: 0;
+}
+.Results {
+    font-size: 30px;
+    margin: 10px 0 0 10px;
+}
+.Results .SuccessResults {
+    color: rgb(107, 180, 24);
+}
+.Results .BadResults {
+    color: rgb(241, 64, 87);
+}

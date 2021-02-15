@@ -1,0 +1,51 @@
+.Auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    align-items: center;
+    background: rgb(31, 31, 31);
+}
+.Auth > div {
+    max-width: 600px;
+}
+.Auth > div > h1 {
+    text-transform: uppercase;
+}
+.AuthForm {
+    background: #edf2f4;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 600px;
+    min-height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.Form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.ErrorHandler {
+    padding: 5px 0px 5px 0px;
+}
+.ErrorHandler ul {
+    margin: 0;
+}
+.ErrorHandler ul li {
+    color: rgba(240, 87, 108, 0.9);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.Guidance {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}

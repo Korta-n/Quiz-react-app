@@ -1,0 +1,40 @@
+.AnswerItem {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #000;
+    border: 1px solid #000;
+    display: flex;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+    border-radius: 15px;
+    transition: 0.25s;
+}
+.AnswerItem:hover {
+    transition: 0.25s;
+    box-shadow: 0 0 0;
+}
+.AnswerItem:hover .BeforeItem {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.25s;
+}
+.AnswerItem.success {
+    background: rgba(161, 240, 69, 0.7);
+}
+
+.AnswerItem.error {
+    background: rgba(240, 87, 108, 0.7);
+}
+.BeforeItem {
+    display: inline-block;
+    overflow: hidden;
+    transform: translateY(10%);
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s;
+}

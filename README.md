@@ -10,10 +10,7 @@ You can immediatly go throught it by this [link][link]
 -   React
 -   JS
 -   HTML
--
-
-CSS
-
+-   CSS
 -   Redux
 -   Redux-thunk
 -   Firebase

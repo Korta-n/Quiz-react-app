@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;500&display=swap');
+.ActiveQuiz {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: #000;
+    font-size: 24px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #e2e8eb;
+}
+.ActiveQuiz p:nth-child(1) {
+    font-size: 20px;
+}
+.ActiveQuiz p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ActiveQuiz ul li {
+    color: #000;
+    margin: 5px 0px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.mask {
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+    margin: 10px;
+}
+.QuestionsLeft {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.CurrentQuestion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.CurrentQuizNumber {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.GuidanceAnswerList {
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+    text-align: left;
+}
+.CurrentQuestionTitle {
+    border-color: rgb(114, 114, 114);
+}

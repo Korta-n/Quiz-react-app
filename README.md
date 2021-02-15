@@ -27,4 +27,4 @@ You can immediatly go throught it by this [link][link]
 <br/>
 **Belive you'll enjoy it 🙂**
 
-[link]: react-quiz-9edfe.web.app
+[link]: https://react-quiz-9edfe.firebaseapp.com/

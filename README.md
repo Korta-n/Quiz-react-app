@@ -22,10 +22,10 @@
 
 ### The project
 
-**Quizer is an app for creating quizes , this is an ServerLess project that i've done by myself**
+**Quizer is an app for creating quizes , this is a ServerLess project that i've deployed using FireBase**
 
 <br/>
 
-**Belive you'll enjoy it 🙂**
+**Hope you'll enjoy it 🙂**
 
 [link]: https://react-quiz-9edfe.firebaseapp.com/
